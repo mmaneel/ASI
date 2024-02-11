@@ -1,0 +1,57 @@
+body {
+    background-color: #F5F7FA; /* Définit la couleur de fond */
+}
+
+.header {
+    font-size: 14px;
+    color: #333; 
+    margin: 10px; /* Ajoute une marge autour du texte */
+}
+
+
+.partenaires-container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px; /* Augmente l'espacement entre les éléments */
+}
+
+.partenaire-container {
+    width: 150px; /* Réduit la largeur des éléments */
+    margin: 15px; /* Augmente la marge */
+    text-align: center;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.partenaire-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+}
+
+.partenaire-name {
+    margin: 0;
+    line-height: 3.5; 
+}
+.footer-button {
+    font-size: 16px;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 25px; /* Ajuste la taille du rectangle autour du texte */
+    border-radius: 2px; /* Arrondit les coins du rectangle */
+    background-color: #3A3B7B; /* Couleur de fond */
+    border: 1px solid #3A3B7B;
+    position: absolute;
+    bottom: 0.5%; /* Augmente la distance du bas de la page */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
